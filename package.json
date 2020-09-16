@@ -1,0 +1,21 @@
+{
+  "name": "nodebdb",
+  "version": "1.0.0",
+  "description": "node init",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodebdb"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "AndresGualdron",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^3.0.0"
+  }
+}
