@@ -9,7 +9,8 @@ app.listen(3001, () => {
 });
 
 app.get('/',(req,res) => {
-  res.send('hello world '+ calculator.fibonacci(10));
+  console.log(req.query.numero);
+  res.send('hello world '+ calculator.fibonacci(req.query.numero));
 })
 
 // module.exports = routeIndex;

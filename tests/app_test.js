@@ -7,9 +7,32 @@ const calculator = require('../app/calculator');
 describe('Testing assert function',function(){
     describe('Check addTest Function', function(){
         it('Check the returned value using : assert', function(){
-            rta = calculator.fibonacci(1);
-            console.log(rta);
-            rta.should.be.equal(1);
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
+        });
+        it('Check the returned value using : assert', function(){
+            rta = calculator.fibonacci(10);
+            rta.should.be.equal(55);
         });
     })
 });
