@@ -1,5 +1,5 @@
 
-
+var RedisStore = require("connect-redis");
 
 
 
